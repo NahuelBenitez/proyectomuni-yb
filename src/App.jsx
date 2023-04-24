@@ -51,14 +51,15 @@ const App = () => {
 
 
   return (
-    <div className="bg-gray-900 h-full text-gray-100 flex items-center justify-center px-4 min-h-screen">
+    <div className="flex flex-col min-h-screen justify-center bg-gray-700 text-white m-auto">
       <Header />
-      <div className="container flex flex-col max-w-2xl w-full ">
+      <div className="container flex-1 flex flex-col max-w-2xl w-full  justify-center m-auto">
         <TodoForm
           handleSubmit={handleSubmit}
           todo={todo}
           editId={editId}
           setTodo={setTodo}
+          
         />
         <TodoList
           todos={todos}
@@ -67,7 +68,7 @@ const App = () => {
           handleComplete={handleComplete}
         />
       </div>
-      <Footer />
+      <Footer className="mt-auto" />
     </div>
   );
 };

@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
     return (
-        <footer className="bg-gray-800 py-4 absolute bottom-0 w-full">
-            <div className="container mx-auto text-center">
+        <footer className="bg-gray-800 py-4 w-full mt-32">
+            <div className="container mx-auto text-center ">
                 <p className="text-gray-400">
                     &copy; {new Date().getFullYear()} Nahuel Benitez - Todos los derechos reservados
                 </p>
