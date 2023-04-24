@@ -52,6 +52,9 @@ Para agregar una nueva tarea, se debe ingresar el título en el formulario y hac
 - [Vite](https://vitejs.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
 
+## Ver en Netlify
+- https://proyectomuni-yb.netlify.app/
+
 ## Licencia
 
 Este proyecto está bajo la Licencia MIT. Consulte el archivo [LICENSE](LICENSE) para obtener más información.
